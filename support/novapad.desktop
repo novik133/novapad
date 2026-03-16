@@ -1,13 +1,13 @@
 [Desktop Entry]
 Name=NovaPad
 GenericName=Text Editor
-Comment=Modern programmer's notebook
+Comment=Modern programmer's text editor - C++23/Qt6 fork of Notepadqq
 Exec=novapad %F
 Icon=novapad
 Terminal=false
 Type=Application
 Categories=Utility;TextEditor;Development;
 MimeType=text/plain;text/x-c;text/x-c++;text/x-python;text/x-java;text/x-javascript;text/html;text/css;text/xml;application/json;application/x-yaml;text/x-shellscript;text/x-makefile;text/x-cmake;text/x-rust;text/x-go;text/x-ruby;text/x-perl;text/x-php;text/x-sql;text/x-lua;text/x-markdown;text/x-toml;
-Keywords=Text;Editor;Code;Programming;Development;Notepad;
+Keywords=Text;Editor;Code;Programming;Development;Notepad;NovaPad;Notepadqq;
 StartupNotify=true
 StartupWMClass=novapad

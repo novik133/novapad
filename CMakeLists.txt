@@ -113,7 +113,7 @@ install(TARGETS novapad
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
 
-install(FILES resources/images/novapad.svg
+install(FILES resources/images/notepad.svg
     DESTINATION ${CMAKE_INSTALL_DATADIR}/icons/hicolor/scalable/apps
     RENAME novapad.svg
 )
