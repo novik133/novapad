@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/kamil/Desktop/NovaPad/build/cmake_install.cmake",
-		"/home/kamil/Desktop/NovaPad/build/src/cmake_install.cmake",
-		"/home/kamil/Desktop/NovaPad/build/tests/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
