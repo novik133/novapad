@@ -1,0 +1,46 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+*.exe
+*.dll
+*.dylib
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+*.cmake
+compile_commands.json
+
+# Qt generated files
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.autosave
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# Test outputs
+tests/test_*
+tests/*.log
+
+# Package files
+*.tar.gz
+*.tar.xz
+*.pkg.tar.zst
+src/
