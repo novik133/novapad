@@ -1,0 +1,5 @@
+novapad_autogen/timestamp: \
+	/home/kamil/Desktop/NovaPad/src/CMakeLists.txt \
+	/home/kamil/Desktop/NovaPad/src/main.cpp \
+	/home/kamil/Desktop/NovaPad/src/resources/novapad.qrc \
+	/usr/bin/cmake

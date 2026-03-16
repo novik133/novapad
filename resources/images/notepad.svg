@@ -1,0 +1,59 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f5f9f"/>
+      <stop offset="100%" stop-color="#1fb6a6"/>
+    </linearGradient>
+
+    <linearGradient id="penGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cfd6dd"/>
+      <stop offset="100%" stop-color="#6f7c8a"/>
+    </linearGradient>
+
+  </defs>
+
+  <!-- Background -->
+  <rect x="16" y="16" width="480" height="480" rx="110" fill="url(#bg)"/>
+
+  <!-- Notebook -->
+  <rect x="120" y="120" width="260" height="200" rx="20" fill="#ffffff"/>
+  <rect x="112" y="110" width="276" height="216" rx="26" fill="none" stroke="#38c172" stroke-width="12"/>
+
+  <!-- Spiral rings -->
+  <g stroke="#a7c0d9" stroke-width="10">
+    <circle cx="160" cy="120" r="12" fill="#dce6f0"/>
+    <circle cx="200" cy="120" r="12" fill="#dce6f0"/>
+    <circle cx="240" cy="120" r="12" fill="#dce6f0"/>
+    <circle cx="280" cy="120" r="12" fill="#dce6f0"/>
+    <circle cx="320" cy="120" r="12" fill="#dce6f0"/>
+  </g>
+
+  <!-- Code area -->
+  <rect x="150" y="170" width="200" height="100" rx="10" fill="#2f3e52"/>
+
+  <!-- Code lines -->
+  <g stroke-width="6" stroke-linecap="round">
+    <line x1="165" y1="190" x2="260" y2="190" stroke="#f4c542"/>
+    <line x1="165" y1="210" x2="300" y2="210" stroke="#5cc8ff"/>
+    <line x1="165" y1="230" x2="280" y2="230" stroke="#ff6b6b"/>
+    <line x1="165" y1="250" x2="310" y2="250" stroke="#8aff80"/>
+  </g>
+
+  <!-- Qt badge -->
+  <rect x="305" y="145" width="55" height="40" rx="8" fill="#41cd52"/>
+  <text x="333" y="172" font-size="20" font-family="Arial, Helvetica, sans-serif" text-anchor="middle" fill="white" font-weight="bold">Qt</text>
+
+  <!-- Pen -->
+  <g transform="rotate(35 360 260)">
+    <rect x="340" y="180" width="24" height="140" rx="10" fill="url(#penGrad)"/>
+    <rect x="340" y="220" width="24" height="50" fill="#2daae1"/>
+    <polygon points="352,320 340,340 364,340" fill="#d9e1e8"/>
+  </g>
+
+  <!-- App name -->
+  <text x="256" y="420" font-size="56" font-family="Segoe UI, Arial, sans-serif" text-anchor="middle" fill="white" font-weight="600">
+    NovaPad
+  </text>
+
+</svg>
