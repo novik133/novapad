@@ -30,6 +30,9 @@ sha256sums=('SKIP')
 build() {
     cd "$srcdir/$pkgname-$pkgver"
     
+    # Clean any existing build directory
+    rm -rf build || true
+    
     cmake -B build \
         -S . \
         -G Ninja \
